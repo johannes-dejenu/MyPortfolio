@@ -11,6 +11,7 @@
         <a href="./contact.html">contact</a>
         <a href="index.html">Home page</a>
         <a href="./form.html">form</a>
+        <a href="./table.html">table</a>
     </nav>
 </header>
 <body>
@@ -20,16 +21,35 @@
             <span>FirstName:</span>
             <!-- <h3>Firstname:</h3> -->
             <input 
-            type="text" 
-            placeholder="Enter your name" 
-            name="FirstName"/>
+                type="text" 
+                placeholder="Enter your name" 
+                name="FirstName"
+            />
         </label>
         
         <br>
         <h3>Age:</h3>
         <input type="number" placeholder="Enter your Age" name="Age">
-        <h3>Email address:</h3>
-        <input type="email" placeholder="Enter your email" name="Email"/>
+        <br>
+        <h3>Email address</h3>
+        <label for="email">
+            <span>email:</span>
+            <input
+                type="email"
+                placeholder="Email address"
+                name="email" 
+                id="email"
+            />
+        </label>
+        <br>
+        <h3>The day you got laid</h3>
+        <label for="date">
+            <input 
+                type="date"
+                id="date"
+            />
+        </label>
+    
         <br>
         <h3>Position applying for:</h3>
         <input type="radio" name="Preference"/>Frontend
